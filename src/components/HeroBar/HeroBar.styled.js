@@ -18,4 +18,4 @@ export const Wrap = styled.div`
   }
 `;
 
-export const Column = styled.div``;
+export const Box = styled.div``;

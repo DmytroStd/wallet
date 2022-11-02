@@ -4,7 +4,7 @@ import Navigation from 'components/Navigation/Navigation';
 
 import { useMediaQuery } from 'react-responsive';
 
-import { Wrap, Column } from './HeroBar.styled';
+import { Wrap, Box } from './HeroBar.styled';
 
 const HeroBar = () => {
   const isTabletOrBigScreen = useMediaQuery({ minWidth: 768 });
@@ -12,10 +12,10 @@ const HeroBar = () => {
   return (
     <>
       <Wrap>
-        <Column>
+        <Box>
           <Navigation />
           <Balance />
-        </Column>
+        </Box>
         {isTabletOrBigScreen && <Currency />}
       </Wrap>
     </>

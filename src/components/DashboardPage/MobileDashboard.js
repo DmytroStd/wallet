@@ -13,7 +13,6 @@ import {
 } from './DashboardPage.styled';
 import EmptyTransactions from '../EmptyTransactions/EmptyTransactions';
 import useSortedTtransactions from 'hooks/sortedTtransactions';
-// import ActionBlock from 'components/ActionBlock/ActionBlock';
 import { useHookTransaction } from 'hooks';
 import DeleteBtn from '../ListButtons/deleteBtn';
 import EditBtn from '../ListButtons/editBtn';
